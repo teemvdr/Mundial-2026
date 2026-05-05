@@ -263,16 +263,15 @@ button:hover {
 
 .logo-mundial {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 9999; /* Esto la trae al frente de todo */
-    background: transparent;
+    top: 5px; /* Un poco más arriba */
+    right: 30px; /* Un poco más a la izquierda */
+    z-index: 1000;
 }
 
 .logo-mundial img {
-    width: 120px !important; /* El !important obliga a que se respete el tamaño */
+    width: 100px; /* Un tamaño elegante */
     height: auto;
-    display: block;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5)); /* Un sombreado suave */
 }
 
 .logo-mundial img:hover {
